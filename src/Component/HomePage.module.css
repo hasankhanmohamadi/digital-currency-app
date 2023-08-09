@@ -1,0 +1,43 @@
+@font-face {
+  font-family: 'IRANSANS';
+  src: local('IRANSANS'), url (./font/IRANSANS.woff)format('woff');
+}
+body{
+	background-color: #F6F1E9;
+	font-family: "IRANSANS";
+}
+.coinContainer{
+	font-family: "IRANSANS";
+	margin: 50px auto;
+	border-radius: 30px;
+	width: fit-content;
+	background-color: #fff;
+	box-shadow: 0 5px 15px rgba(29,30,101,.15);
+	border-top: 7px solid #FFD93D;
+	border-bottom: 7px solid #FFD93D;
+}
+.Loading{
+	margin: 50px auto;
+	width: fit-content;
+}
+.search {
+	width: 300px;
+	margin-top: 50px;
+	border: 1px solid silver;
+	border-radius: 9px;
+	height: 30px;
+	padding: 7px;
+	background-color: #f6f6f6;
+	transition: all 0.2s ease;
+}
+::placeholder {
+ text-align: center;
+  color: #848e9c;
+  font-family: "IRANSANS";
+}
+.search:focus{
+	outline: none;
+	border-color: #fff;
+	background-color: #fff;
+	box-shadow: rgba(74, 74, 74, 0.24)0px 3px 8px;
+}
