@@ -1,5 +1,5 @@
 import React,{ useState, useEffect } from "react";
-import { crisp } from "crisp-sdk-web";
+import { Crisp } from "crisp-sdk-web";
 import Coin from "./Coin.js";
 import styles from "./HomePage.module.css";
 import { DotWave } from "@uiball/loaders";
